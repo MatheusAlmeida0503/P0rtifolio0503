@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="tif.css">
+    <link rel="stylesheet" type="text/css" href="img.css">
+
+    
+    <title>Matheus Almeida Alves dos Santos - Portfólio</title>
+    <style>
+    * {
+        margin: auto;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+
+
+        background-image: none url("ArteFundo.png");
+        
+    }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C:\Users\loke4\Pictures\Captura de tela 2023-12-08 053403-PhotoRoom.png" alt="foto" width="100" height="100">
+        <h1>Matheus Almeida Alves dos Santos</h1>
+        <p>Desenvolvedor Web</p>
+    </header>
+    <section class="Pao">
+        
+        <section class="Carne">
+            <h2>Sobre Mim</h2>
+            <p>Coloque aqui uma breve descrição sobre você e suas habilidades.</p>
+        </section>
+
+        <section class="Queijo">
+            <h2>Projetos</h2>
+            <p>Destaque alguns dos seus projetos mais relevantes. Você pode adicionar imagens, links e uma breve descrição para cada projeto.</p>
+        </section>
+
+        <section class="Salada">
+            <h2>Contato</h2>
+            <p>Deixe informações de contato, como e-mail e links para suas redes sociais.</p>
+        </section>
+
+        <script>
+            // Seu JavaScript aqui
+    
+            function toggleAbout() {
+                var aboutText = document.getElementById("about-text");
+    
+                if (aboutText.style.display === "none" || aboutText.style.display === "") {
+                    aboutText.style.display = "block";
+                } else {
+                    aboutText.style.display = "none";
+                }
+            }
+    
+            function highlightProject(project) {
+                project.style.border = "2px solid #1fbcd1";
+            }
+    
+            function unhighlightProject(project) {
+                project.style.border = "none";
+            }
+        </script>
+
+
+    
+    
+    </section>
+
+</body>
+</html>
